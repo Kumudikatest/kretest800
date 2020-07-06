@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "46d92da1-4bd5-4b5c-9180-4d97395f361c": {
+        "id": "46d92da1-4bd5-4b5c-9180-4d97395f361c",
+        "parent": null,
+        "name": "kretest800.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kretest800.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "kretest800"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "46d92da1-4bd5-4b5c-9180-4d97395f361c"
+    ],
+    "currentFileId": "46d92da1-4bd5-4b5c-9180-4d97395f361c",
+    "resources": {
+      "ebResource": {
+        "name": "ebResource",
+        "type": "EventBridge",
+        "config": {
+          "selectedRegion": "us-east-1"
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.0",
+    "projectName": "kretest800",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1594040337461
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kretest800",
+      "url": "https://github.com/Kumudikatest/kretest800"
+    }
+  }
+}
